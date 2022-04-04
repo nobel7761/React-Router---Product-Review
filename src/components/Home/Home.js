@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Home.css';
 import { Button, Container } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import CustomLink from '../CustomLink/CustomLink';
+import ReviewCard from '../ReviewCard/ReviewCard'
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
+    const [reviews, setReviews] = useState([]);
+    useEffect(() => {
+        fetch('reviews.json')
+            .then(res => res.json())
+            .then(data => setReviews(data))
+    }, [])
     return (
         <div className='home-container'>
             <Container>
@@ -27,7 +35,18 @@ const Home = () => {
 
                 {/* lower section */}
                 <div>
-                    <h1 className='fw-bolder text-center mt-5'>Customer Reviews</h1>
+                    <h1 className='fw-bolder text-center my-5'>Customer Reviews(3)</h1>
+                    <div className='home-page-review mb-5'>
+                        {
+                            reviews.length > 3 ? reviews.slice(0, 3).map(review => <ReviewCard key={review._id} review={review}></ReviewCard>) : ''
+                        }
+                    </div>
+
+                    <div className='text-center mb-5 d-flex justify-content-center'>
+                        <Link to='/reviews'>
+                            <Button className='w-full'>See All Reviews</Button>
+                        </Link>
+                    </div>
                 </div>
 
             </Container>
