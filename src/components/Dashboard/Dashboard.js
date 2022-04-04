@@ -13,7 +13,7 @@ const Dashboard = () => {
             .then(data => setData(data))
     }, [])
     return (
-        <div>
+        <div className='mb-5'>
             <h1 className='text-center py-5 fw-bold'><span className='colored-text'>Chart</span> Based on <span className='colored-text'>Provided Data</span></h1>
             <div className='chart-container'>
                 <div>

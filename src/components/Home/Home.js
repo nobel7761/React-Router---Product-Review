@@ -1,19 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Home.css';
 import { Button, Container } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import CustomLink from '../CustomLink/CustomLink';
 import ReviewCard from '../ReviewCard/ReviewCard'
 import { Link } from 'react-router-dom';
+import useReviews from '../../hooks/useReviews';
 
 
 const Home = () => {
-    const [reviews, setReviews] = useState([]);
-    useEffect(() => {
-        fetch('reviews.json')
-            .then(res => res.json())
-            .then(data => setReviews(data))
-    }, [])
+    const [reviews, setReviews] = useReviews();
     return (
         <div className='home-container'>
             <Container>
