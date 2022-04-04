@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import CustomLink from '../CustomLink/CustomLink';
 
 const Header = () => {
@@ -16,6 +16,8 @@ const Header = () => {
                         <CustomLink to="/blogs" className='nav-link'>BLOGS</CustomLink>
                         <CustomLink to="/gallery" className='nav-link'>GALLERY</CustomLink>
                         <CustomLink to="/about" className='nav-link'>ABOUT</CustomLink>
+
+
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

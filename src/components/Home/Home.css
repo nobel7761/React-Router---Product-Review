@@ -1,0 +1,19 @@
+/* .image{
+    width: 800px;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 55px;
+}
+
+.colored-text{
+    color: blue;
+}
+
+.live-demo-btn{
+    padding: 10px;
+    width: 300px;
+}
