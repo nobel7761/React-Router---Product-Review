@@ -3,49 +3,49 @@
         "_id": "624b3a4f37337c5377e5d336",
         "name": "Willa Waters",
         "picture": "images/photo1.jpg",
-        "review": "Veniam in aute velit cupidatat cupidatat quis adipisicing aute tempor. Fugiat ex deserunt et est laboris in laboris. Qui reprehenderit in magna laboris pariatur consectetur labore sit. Anim in laboris ex eiusmod ad est aliquip esse cillum elit incididunt.",
-        "rating": 5
+        "review": "Great geometry provides stability; super-responsive chassis; spec is spot on; awesome fun if you are into popping and jumping down the trail",
+        "rating": 3.5
     },
     {
         "_id": "624b3a4f72180b8a386ea70a",
         "name": "Gamble Bullock",
         "picture": "images/photo2.jpg",
-        "review": "Do ullamco anim voluptate cupidatat pariatur aliqua. Nostrud elit occaecat duis laboris in cillum sunt pariatur quis non. Amet fugiat ex non cupidatat in. Eiusmod fugiat laboris esse esse reprehenderit. Veniam in incididunt proident sunt ex sit et sunt dolore adipisicing fugiat ut. Veniam id sunt non labore.",
+        "review": "Solid suspension; decent geometry is comfortable up, and confident down hill",
         "rating": 3
     },
     {
         "_id": "624b3a4fee021d4d4974aca7",
         "name": "Ana Lester",
         "picture": "images/photo3.webp",
-        "review": "Magna velit officia ea mollit anim ea Lorem tempor labore. Minim mollit dolore nulla labore non. Consequat enim excepteur eu occaecat enim do eu proident amet qui. Elit sunt incididunt sint non commodo. Tempor qui cillum fugiat duis et est ipsum veniam in laboris irure officia duis. Quis laboris excepteur reprehenderit id ea et laborum aliqua dolore sit.\r\n",
-        "rating": 4
+        "review": "Supple, supportive, and smooth suspension that gives free speed; Goldilocks geometry; excellent value for money; choice part specifications",
+        "rating": 4.5
     },
     {
         "_id": "624b3a4f0438e5964f52e271",
         "name": "Mayo Donaldson",
         "picture": "images/photo4.webp",
-        "review": "Esse deserunt non officia dolore dolor veniam mollit fugiat elit labore id ut. Cillum sit ea et fugiat cillum duis aliquip. Minim ea enim occaecat commodo aute adipisicing est.\r\n",
-        "rating": 4
+        "review": "Great geometry provides stability; super-responsive chassis; spec is spot on; awesome fun if you are into popping and jumping down the trail",
+        "rating": 2
     },
     {
         "_id": "624b3a4fb05340f253363006",
         "name": "Cameron Green",
         "picture": "images/photo5.jpg",
-        "review": "Mollit aliqua proident Lorem officia labore amet enim tempor ullamco est exercitation cillum. Et proident ipsum nisi ea elit consequat aliqua officia elit. Dolor enim magna ut ea qui exercitation eu ut.\r\n",
-        "rating": 3
+        "review": "Well thought-out spec; neat frame storage; looks smart; a lot of fun on the trail",
+        "rating": 2.5
     },
     {
         "_id": "624b3a4ff8f5037b0c4b0281",
         "name": "Ashlee Harper",
         "picture": "images/photo6.jpg",
-        "review": "Anim laboris laboris ullamco aliquip ipsum fugiat deserunt labore. Lorem aliquip proident ad dolore do et irure quis occaecat nisi sunt cupidatat dolore. Consectetur minim exercitation veniam minim anim dolore nisi labore ex est sunt ullamco velit cillum. Culpa culpa sit officia ipsum excepteur nostrud elit. Veniam proident sunt veniam incididunt dolore velit velit minim ullamco dolore ut consequat exercitation duis. Laboris amet cillum incididunt laborum dolore irure ut cupidatat elit. Ipsum consequat exercitation laboris exercitation enim sunt tempor consectetur commodo qui ipsum id.\r\n",
-        "rating": 3
+        "review": "Superb handling: more regular bike than e-MTB; motor is smooth and Mission Control app adds adjustability; great, adjustable geometry; balanced, very capable suspension",
+        "rating": 5
     },
     {
         "_id": "624b3a4f88205604ecebd9ff",
         "name": "Fleming Vance",
         "picture": "images/photo7.jpg",
-        "review": "Aute commodo fugiat voluptate esse laborum. Occaecat amet duis ut aliqua esse in culpa ad. Est quis in exercitation sit voluptate culpa id enim ea est proident cillum ullamco. Magna non reprehenderit occaecat dolore ea culpa adipisicing mollit esse anim. Proident sit do amet quis occaecat nostrud.\r\n",
-        "rating": 2
+        "review": "The most solid suspension I have ridden in years; good value for money, with decent kit and premium-feeling frame.",
+        "rating": 1
     }
 ]

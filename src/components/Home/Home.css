@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
 
-h1{
-    font-family: 'Poppins', sans-serif;
+.home-container h1{
     font-size: 55px;
 }
 
@@ -19,4 +18,17 @@ h1{
     grid-template-columns: repeat(2, 1fr);
     column-gap: 20px;
     row-gap: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .home-container h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .home-page-review{
+
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 50px;
+    }
 }
