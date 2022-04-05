@@ -46,18 +46,27 @@ const Blogs = () => {
 
 
 
-                {/* <Accordion.Item eventKey="2">
-                    <Accordion.Header> <b>What is difference between inline-block and block elements?</b> </Accordion.Header>
+                <Accordion.Item eventKey="2">
+                    <Accordion.Header> <b>What is difference between inline, inline-block and block elements?</b> </Accordion.Header>
                     <Accordion.Body>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                        est laborum.
+                        <h5><b><u>Inline:</u></b></h5>
+                        <ul>
+                            <li>Displays an element as an inline element. Any height and width properties will have no effect.</li>
+                            <li>The element does not start on a new line and only occupy just the width it requires. We can not set the width or height.</li>
+                        </ul>
+
+                        <h5><b><u>Inline-Block:</u></b></h5>
+                        <ul>
+                            <li>Displays an element as an inline-level block container. We can set height and width values.</li>
+                            <li>It is formatted just like the inline element, where it does not start on a new line. BUT, we can set width and height values.</li>
+                        </ul>
+                        <h5><b><u>Block:</u></b></h5>
+                        <ul>
+                            <li>Displays an element as an block element. The entire width of that particular element will be blocked!</li>
+                            <li>The element will start on a new line and occupy the full width available. And we can set width and height values.</li>
+                        </ul>
                     </Accordion.Body>
-                </Accordion.Item> */}
+                </Accordion.Item>
             </Accordion>
         </div >
     );
