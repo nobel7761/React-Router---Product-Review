@@ -13,14 +13,14 @@ const ReviewCard = (props) => {
     return (
         <div className='card-container'>
             <Image className='card-image' src={picture} />
-            <div className='review-details position-relative'>
-                <div className='position-absolute top-0 mt-3'>
+            <div className='review-details'>
+                <div className='name'>
                     <h3 className='fw-bold '>{name}</h3>
                 </div>
-                <p title={review}>
+                <p title={review} className='review'>
                     {review.length > 200 ? review.slice(0, 200) + '...' : review}
                 </p>
-                <p className='d-flex align-items-center position-absolute bottom-0'>Ratings: <ReactStars
+                <p className='d-flex align-items-center ratings'>Ratings: <ReactStars
                     count={5}
                     value={rating}
                     size={28}

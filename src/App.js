@@ -23,8 +23,10 @@ function App() {
 
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+
     </div>
   );
 }
 
 export default App;
+
