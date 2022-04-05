@@ -3,13 +3,8 @@ import './About.css';
 
 const About = () => {
     return (
-        <div className='about'>
-            <main>
-
-            </main>
-            <footer>
-                <h1>hello</h1>
-            </footer>
+        <div className='about-container'>
+            <h1 className='text-center'>About</h1>
         </div>
     );
 };
